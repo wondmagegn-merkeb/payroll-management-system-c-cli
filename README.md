@@ -29,3 +29,27 @@ A console-based **Payroll Management System** built in C++ to efficiently manage
 
 ## 📁 Project Structure
 
+Payroll-Management-System/
+│
+├── payroll.cpp # Main C++ source code
+├── payroll.txt # Employee data file (auto-generated)
+├── README.md # Project documentation
+└── .gitignore # Optional (to ignore payroll.txt)
+
+
+- **payroll.cpp** – Contains the main program logic for managing employees and payroll calculations.  
+- **payroll.txt** – Stores employee records; automatically created and updated by the program.  
+- **README.md** – Documentation for project overview, features, usage, and structure.  
+- **.gitignore** – Optional; used to prevent `payroll.txt` or other files from being tracked by Git.
+
+---
+
+## 💻 Usage
+
+1. **Compile the program** using a C++ compiler:
+
+```bash
+g++ payroll.cpp -o payroll
+
+./payroll
+
